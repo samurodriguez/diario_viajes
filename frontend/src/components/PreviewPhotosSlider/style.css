@@ -1,0 +1,25 @@
+.entry_photos_slider .entry_photos_empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-style: italic;
+}
+
+.entry_photos_slider .entry_files_add {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -4rem;
+  margin: 0;
+  color: var(--main-dark);
+}
+
+.entry_photos_slider .entry_files_delete {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -4rem;
+  color: var(--main-dark);
+}

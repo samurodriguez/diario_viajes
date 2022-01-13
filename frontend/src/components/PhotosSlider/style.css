@@ -1,0 +1,41 @@
+.entry_photos_slider {
+  position: relative;
+}
+
+.entry_photos_slider .photos_list {
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slide.active {
+  opacity: 1;
+  transition: opacity 1s;
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.fa-arrow-left {
+  left: 1rem;
+}
+.fa-arrow-right {
+  right: 1rem;
+}
+
+.fa-arrow-right,
+.fa-arrow-left {
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 1.25rem;
+}

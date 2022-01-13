@@ -1,0 +1,79 @@
+.profile_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile_title {
+  font-size: 3rem;
+  color: var(--main-dark);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.profile_page .user_profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_page .user_profile .user_email {
+  margin-top: 2rem;
+}
+
+.profile_page .user_name,
+.profile_page .user_email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.user_name p,
+.user_email p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.user_name span,
+.user_email span {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.user_profile .edit_password {
+  text-decoration: none;
+  margin-top: 2rem;
+  background-color: var(--main-dark);
+  color: var(--main-light);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.profile_page .edit_profile {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: var(--main-dark);
+}
+
+.profile_page .edit_user_form .editable_avatar {
+  margin-bottom: 2rem;
+}
+
+.profile_page .go_back {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: var(--main-dark);
+}
+
+.profile_page .form input[type="submit"] {
+  margin-top: 2rem;
+}

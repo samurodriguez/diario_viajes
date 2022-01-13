@@ -1,0 +1,17 @@
+.edit_password_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.edit_password_title {
+  font-size: 3rem;
+  color: var(--main-dark);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
